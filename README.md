@@ -27,10 +27,6 @@ Jupyter notebook analyzing fluorescence absorption and polariton dispersion. Inc
 ## Contents
 
 * `notebook.ipynb` – Main Jupyter Notebook containing all three parts
-* `data/` –
-  * light intensity measurements for 
-  * `images/` – Fluorescence images (JPEG) for Parts 2
-  * `dispersion_data.csv` – Experimental $k,E$ measurements and uncertainties for Part 3
 * `README.md` – This file
 
 ## Requirements
@@ -43,22 +39,6 @@ Jupyter notebook analyzing fluorescence absorption and polariton dispersion. Inc
 * [Pandas](https://pandas.pydata.org/)
 * JupyterLab/Notebook
 
-Install via Conda:
-
-```bash
-conda create -n fluo-polariton python=3.8 numpy matplotlib scipy opencv-python pandas jupyterlab
-conda activate fluo-polariton
-```
-
-Or via pip:
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install numpy matplotlib scipy opencv-python pandas jupyterlab
-```
-
----
 
 ## Usage
 
